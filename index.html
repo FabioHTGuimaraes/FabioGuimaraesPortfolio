@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclui o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Define o ícone da página -->
+    <link rel="icon" href="img/Fabio_Guimarâes__1_-removebg-preview.png">
+
+    <!-- Inclui o arquivo de script JavaScript -->
+    <script src="main.js"></script>
+
+    <!--Links do bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!--Nome da pagina-->
+    <title>Fabio Guimarães - Portfólio</title>
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+
+        <nav>
+
+            <a href="index.html" class="navbar-brand d-flex justify-content-center align-items-center">
+                <img src="img/Fabio_Guimarâes__1_-removebg-preview.png" width="100">
+            </a>
+
+            <ul id="nav">
+                <a href="#inico">início</a>
+                <a href="#Conhecimentos">Conhecimentos</a>
+                <a href="#Portfolio">Portfolio</a>
+                <a href="#Contato">Contato</a>
+            </ul>
+
+            <ul id="nav-social">
+                <button onclick="redirecionarParaPagina1()"><i class="bi bi-instagram" id="icon"></i></button>
+                <button onclick="redirecionarParaPagina2()"><i class="bi bi-linkedin" id="icon"></i></button>
+                <button onclick="redirecionarParaPagina3()"><i class="bi bi-github" id="icon"></i></button>
+            </ul>
+
+        </nav>
+
+    </header>
+    
+    <!-- Conteúdo principal -->
+    <main>
+
+        <section id="inico"><br><br>
+            <h2>início</h2><br>
+            <div id="textinicio">
+            Atualmente cursando análise e desenvolvimento de sistemas, estou apaixonado pelo o mundo da tecnologia e desenvolvimento. Tenho uma forte dedicação em aprender e aprimorar minhas habilidades nas área de desenvolvimento. <br>Amo oque eu faço e estou sempre buscando novas oportunidades para crescer e contribuir em projetos. Estou animado para me conectar com profissionais da área e colaborar em iniciativas inovadoras.<br>
+            </div>
+          </section><br><br>
+
+        <section id="Conhecimentos">
+
+            <h2>Conhecimentos</h2><br><br>
+
+            <div class="img-container">
+                <img src="img/1-removebg-preview.png" width="200" onclick="showPopup(1)">
+                <img src="img/2-removebg-preview.png" width="200" onclick="showPopup(2)">
+                <img src="img/3-removebg-preview.png" width="200" onclick="showPopup(3)">
+                <img src="img/4-removebg-preview.png" width="200" onclick="showPopup(4)">
+                <img src="img/5-removebg-preview.png" width="200" onclick="showPopup(5)">
+            </div>
+
+            <div id="popup1" class="popup">   
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup(1)">&times;</span>
+                  <p>SOBRE HTML</p><br>
+                  <img src="img/111.png" width="450" id="imgg"><br><br>
+                  HTML (HyperText Markup Language) é a linguagem padrão utilizada para criar e estruturar conteúdos na web. Desenvolvido originalmente por Tim Berners-Lee em 1991, o HTML é essencial para a construção de páginas da internet, permitindo a organização de texto, imagens, links, vídeos e outros elementos multimídia de maneira lógica e estruturada.<br><br>
+                </div>
+              </div>
+              <div id="popup2" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup(2)">&times;</span>
+                  <p>SOBRE CSS</p><br>
+                  <img src="img/222.png" width="450" id="imgg"><br><br>
+                  CSS (Cascading Style Sheets) é a linguagem utilizada para descrever a apresentação de documentos HTML ou XML (incluindo vários tipos de documentos XML como SVG, MathML ou XHTML). CSS define como os elementos serão exibidos na tela, em papel, na fala ou em outros meios de apresentação.<br><br>
+                </div>
+              </div>
+              <div id="popup3" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup(3)">&times;</span>
+                  <p>SOBRE JAVASCRIPT</p><br>
+                  <img src="img/333.png" width="450" id="imgg"><br><br>
+                  JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada no desenvolvimento web para criar páginas interativas e dinâmicas. Inicialmente desenvolvido por Brendan Eich na Netscape Communications em 1995, o JavaScript é uma das três tecnologias essenciais da web, ao lado de HTML e CSS.<br><br>
+                </div>
+              </div>
+              <div id="popup4" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup(4)">&times;</span>
+                  <p>SOBRE PHP</p><br>
+                  <img src="img/444.png" width="450" id="imgg"><br><br>
+                  PHP (Hypertext Preprocessor) é uma linguagem de script de código aberto amplamente utilizada, especialmente adequada para o desenvolvimento web e pode ser embutida no HTML. Criado por Rasmus Lerdorf em 1994, o PHP é executado no lado do servidor, o que significa que o código é processado no servidor web antes de ser enviado ao navegador do usuário.<br><br>
+                </div>
+              </div>
+              <div id="popup5" class="popup">
+                <div class="popup-content">
+                  <span class="close" onclick="closePopup(5)">&times;</span>
+                  <p>SOBRE BANCO DE DADOS</p><br>
+                  <img src="img/555.png" width="450" id="imgg"><br><br>
+                  Um banco de dados é uma coleção organizada de informações ou dados, estruturada de maneira que facilita a gestão, acesso, e atualização eficiente. Bancos de dados são essenciais para o armazenamento e recuperação de grandes volumes de dados e são utilizados em uma ampla gama de aplicações, desde sistemas de gerenciamento de conteúdo e redes sociais até aplicações corporativas e de comércio eletrônico.<br><br>
+                </div>
+            </div><br><br>
+        </section>
+
+        <section id="Portfolio">
+            <h2>Portfolio</h2><br>
+
+            <div class="img-container2">
+              <img src="img/11-removebg-preview.png" width="300" onclick="showPopup(6)">
+              <img src="img/33-removebg-preview.png" width="300" onclick="showPopup(7)">
+            </div>
+
+            <div class="img-container2">
+              <img src="img/44-removebg-preview.png" width="300" onclick="showPopup(8)">
+              <img src="img/55-removebg-preview.png" width="300" onclick="showPopup(9)">
+            </div>
+
+            <div id="popup6" class="popup">   
+              <div class="popup-content">
+                <span class="close" onclick="closePopup(6)">&times;</span>
+                <p>TELA DE LOGIN</p><br>
+                <video width="450" controls autoplay loop muted poster="img/Gravando 2024-07-14 142100.mp4">
+                  <source src="img/Gravando 2024-07-14 142100.mp4" type="video/mp4">
+                </video><br><br>
+                Objetivo:<br><br>
+                A página de login é uma interface crucial de autenticação que permite aos usuários acessar um sistema ou serviço restrito após verificarem suas credenciais.<br><br>
+                Componentes Principais:<br><br>
+                - Formulário de Login<br>
+                - Layout Responsivo<br>
+                - Estética Limpa<br>
+                - Autenticação de Usuário<br>
+                - Mensagens de Erro<br>
+                - Segurança<br>
+                - Acessibilidade<br>
+                - Usabilidade<br>
+              </div>
+            </div>
+            <div id="popup7" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup(7)">&times;</span>
+                <p>TELA DE REDEFINIÇÃO DE SENHA</p><br>
+                <video width="450" controls autoplay loop muted poster="img/Gravando 2024-07-14 143540.mp4">
+                  <source src="img/Gravando 2024-07-14 143540.mp4" type="video/mp4">
+                </video><br><br>
+                Objetivo:<br><br>
+                A página de redefinição de senha é uma interface que permite aos usuários redefinirem suas senhas esquecidas ou comprometidas, garantindo que eles possam recuperar o acesso às suas contas de forma segura e eficiente.<br><br>
+                Componentes Principais:<br><br>
+                - Formulário de Redefinição de Senha<br>
+                - Verificação de Identidade<br>
+                - Layout Responsivo<br>
+                - Estética Limpa<br>
+                - Mensagens de Erro<br>
+                - Validação de Campos<br>
+                - Segurança<br>
+                - Tokens de Segurança<br>
+                - Acessibilidade<br>
+                - Usabilidade<br>
+              </div>
+            </div>
+            <div id="popup8" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup(8)">&times;</span>
+                <p>TELA DE CONSULTA DE USUÁRIO</p><br>
+                <video width="450" controls autoplay loop muted poster="img/Gravando 2024-07-14 143711.mp4">
+                  <source src="img/Gravando 2024-07-14 143711.mp4" type="video/mp4">
+                </video><br><br>
+                Objetivo:<br><br>
+                A página de consulta de usuário oferece uma interface para visualizar, gerenciar e exportar informações dos usuários cadastrados no banco de dados. Ela permite aos administradores listar usuários, excluir registros e gerar relatórios em PDF.<br><br>
+                Componentes Principais:<br><br>
+                - Tabela de Usuários<br>
+                - Excluir Usuário<br>
+                - Layout Responsivo<br>
+                - Estética Limpa<br>
+                - Exportação de Dados (Gerando um PDF)<br>
+                - Validação de Ações<br>
+                - Segurança<br>
+                - Autenticação e Autorização<br>
+                - Acessibilidade<br>
+                - Usabilidade<br>
+              </div>
+            </div>
+            <div id="popup9" class="popup">
+              <div class="popup-content">
+                <span class="close" onclick="closePopup(9)">&times;</span>
+                <p>TELA DE CADASTRO</p><br>
+                <video width="450" controls autoplay loop muted poster="img/Gravando 2024-07-14 141942.mp4">
+                  <source src="img/Gravando 2024-07-14 141942.mp4" type="video/mp4">
+                </video><br><br>
+                Objetivo:<br><br>
+                A página de cadastro é uma interface que permite a novos usuários criarem contas no sistema. Ela coleta informações essenciais dos usuários e as armazena no banco de dados, possibilitando o acesso a serviços ou funcionalidades restritas.<br><br>
+                Componentes Principais:<br><br>
+                - Formulário de Cadastro<br>
+                - Validação de Campos<br>
+                - Layout Responsivo<br>
+                - Estética Limpa<br>
+                - Segurança<br>
+                - Requisitos de Senha<br>
+                - Acessibilidade<br>
+                - Usabilidade<br>
+              </div>
+            </div>
+            
+        </section>
+
+        <section id="Contato">
+            <h2>Contato</h2><br>
+            Entre em contato comigo via rede social ou e-mail<br><br><br>
+            <ul id="social">
+              <button onclick="redirecionarParaPagina1()"><i class="bi bi-instagram" id="icon1"></i></button>
+              <button onclick="redirecionarParaPagina2()"><i class="bi bi-linkedin" id="icon1"></i></button>
+              <button onclick="redirecionarParaPagina4()"><i class="bi bi-envelope-paper" id="icon1"></i></button>
+            </ul>
+        </section><br><br>
+
+        <!-- Botão Voltar ao Topo -->
+        <div class="voltar">
+          <i class="bi bi-arrow-up-circle-fill" onclick="voltarAoTopo()"></i>
+        </div>
+  
+    </main>
+    
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+        <p>Desenvolvido por Fabio Guimarães</p>
+    </footer>
+
+</body>
+
+</html>
