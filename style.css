@@ -39,6 +39,12 @@ section {
     text-align: center;
 }
 
+.popup-content img, .popup-content video {
+    width: 100%;
+    height: auto;
+}
+
+
 p {
     font-weight: bold;
 }
