@@ -45,8 +45,19 @@ window.onclick = function(event) {
 
 // Função para rolar suavemente até o topo da página
 function voltarAoTopo() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+window.addEventListener('scroll', function() {
+  var voltarButton = document.querySelector('.voltar');
+  var footer = document.querySelector('footer');
+  var footerRect = footer.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // Verifica se o rodapé está visível na tela
+  if (footerRect.top < windowHeight) {
+      voltarButton.classList.add('visible');
+  } else {
+      voltarButton.classList.remove('visible');
+  }
+});
