@@ -7,7 +7,7 @@ function redirecionarParaPagina1() {
 // Função para redirecionar para o linkedin
 function redirecionarParaPagina2() {
     // Redireciona para outra página
-    window.open("https://www.linkedin.com/in/fabio-guimarães-390456202/", "_blank");
+    window.open("www.linkedin.com/in/fabioguimaraes1", "_blank");
 }
 
 // Função para redirecionar para o github
